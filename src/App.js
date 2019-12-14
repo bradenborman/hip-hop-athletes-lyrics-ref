@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import data from "./data/data.json";
+import SongReference from './componets/SongReference';
+
+let songData = data.songs
 
 function App() {
+   
+const mappedSongs = songData.map( (song, index) =>
+  <SongReference key={index} title={song.title} artist={song.artist} lyric={song.lyric} athlete={song.athlete}
+  />
+);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {mappedSongs}
+      <p className="moreLinks"><a href={data.url}>More Lyrics</a></p>
     </div>
   );
 }

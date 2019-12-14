@@ -1,0 +1,27 @@
+{
+  "songs": [
+        {
+          "title": "The Other Side",
+          "artist": "Jae Millz",
+          "lyric": "When there’s beef, I’m in the center like Tyson Chandler",
+          "athlete": "Tyson Chandler"
+        },
+        {
+          "title": "Bounce It",
+          "artist": "Wale",
+          "lyric": "Catch me at that Memphis game, seats saved by Rudy",
+          "athlete": "Rudy Gay"
+        },
+        {
+          "title": "To Me, To You”",
+          "artist": "Royce da 5'9",
+          "lyric": "I don’t connect with y'all and these antics Today you give your life to the game Tomorrow you be posin' in pictures, lookin' like Steve Francis You ain’t turnin' up, you’re bein' backhanded like Pete Sampras",
+          "athlete": "Stevie Francis"
+        }
+  ],
+
+
+  "url" : "https://genius.com/Rap-genius-athlete-references-in-rap-music-lyrics"
+
+
+}
