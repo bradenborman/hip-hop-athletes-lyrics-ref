@@ -1,7 +1,8 @@
 import React from 'react';
-import data from "./data/data.json";
-import SongReference from './componets/songs/SongReference';
-import Header from './componets/header/Header';
+import data from "../../data/data.json";
+
+import SongReference from '../songs/SongReference';
+import Header from '../header/Header';
 
 let songData = data.songs.sort(() => Math.random() - 0.5);
 
