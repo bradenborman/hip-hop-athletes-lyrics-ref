@@ -8,6 +8,7 @@ $playerLabel: #2b2b2b;
     border-radius: 15px;
     border: 3px solid black;
     font-family: 'Coming Soon';
+    max-width: 500px;
 }
 
 .title {
@@ -30,18 +31,11 @@ $playerLabel: #2b2b2b;
     padding: 10px;
     background-color: $playerLabel;
     border: 1px solid black;
-    color: snow;
+    color: rgb(206, 193, 193);
     display: inline-block;
     font-family: 'Abril Fatface';
     font-size: 22px;
     border-radius: 20px;
     min-width: 100px;
-    margin: auto;
     margin-top: 20px;
-}
-
-.moreLinks {
-    text-align: center;
-    margin-top: 80px;
-    font-size: 1.6em;
 }

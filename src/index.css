@@ -1,8 +1,11 @@
 body {
+    margin: 0px;
     background-color: cornflowerblue;
-  
 }
 
-.App {
-
+.moreLinks {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.8em;
+    margin-bottom: 100px;
 }
